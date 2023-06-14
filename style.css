@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo {
+    flex: 2;
+    padding-left: 110px;
+    font: 24px;
+    color: #F9FAF8;
+}
+
+.link-one,
+.link-two,
+.link-three {
+   
+    padding-right: 110px;
+    font: 18px;
+    color: #E5E7EB;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+}
+.first-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+
+ .first-container .left .heading {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+
+ }
+ .first-container .left p {
+    color: white;
+ }
+
+ .first-container .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+ }
+
+ .paragraph {
+    font: 18px;
+    color: #e5e7eb;
+    
+ }
+ .heading,
+ .paragraph,
+ .signup-btn {
+    margin: 10px 0;
+ }
+
+ .signup-btn {
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+ }
+
+ .signup-btn:hover {
+    background-color: blue;
+ }
+
+ .first-container .right .image {
+    color: white;
+    text-align: center;
+ }
+
+ .second-container .random {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font: 36px;
+    font-weight: 800;
+    color: #1f2937;
+ }
+
+
+ .second-container .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ 
+
+ .box1,
+ .box2,
+ .box3,
+ .box4 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+    text-align: center;
+    align-items: center;
+    
+ }
+ .box1 img,
+ .box2 img,
+ .box3 img,
+ .box4 img {
+    border: 2px solid blue;
+    border-radius: 5%;
+    
+
+ }
+
+ .boxes .box1 p,
+ .boxes .box2 p,
+ .boxes .box3 p,
+ .boxes .box4 p  {
+    margin-top: 10px;
+    
+ }
+
+ .third-container {
+    padding: 70px;
+    text-align: center;
+    background-color: #e5e7eb;
+    
+    
+ }
+
+ .third-container .quote {
+    font: 36px;
+    color: #1f2937;
+ }
+
+ 
+ 
